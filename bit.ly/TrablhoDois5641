@@ -1,0 +1,15 @@
+//1- soma de dois números;
+const num1 = Number(prompt("digite um número de 1 a 50"));
+const num2 = Number(prompt("digite um segundo número de 1 a 50"));
+
+
+if (num1 > 0){
+  console.log("soma", num1 + num2);    
+}
+else if (num2 > 0){
+  console.log("soma", num1 + num2);
+}
+else {
+  console.log("os números são negativos");
+}
+
